@@ -3,6 +3,10 @@
 A precise, mobile-first practice metronome. React + TypeScript + Vite, installable as a PWA,
 works offline, no backend. All click sounds are synthesized with Web Audio. There are no audio files.
 
+**Live app:** https://morritsbr.github.io/tactus/. On iPhone, open it in Safari, then Share → Add to Home Screen.
+Every push to `main` runs the tests, builds with base `/tactus/` and publishes to GitHub Pages
+(`.github/workflows/deploy.yml`).
+
 ## Run it
 
 Requires Node 20+.
